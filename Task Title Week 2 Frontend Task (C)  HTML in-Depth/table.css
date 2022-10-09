@@ -1,0 +1,35 @@
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    border: spacing 5px;
+  }
+
+#miHeader {
+color: brown;
+padding: 40px;
+
+}
+
+.subJ {
+    column-span: 10px;
+    background-color: beige;
+}
+.tScore {
+    background-color:aquamarine;
+    color: brown;
+    column-span: all;
+    text-decoration: solid;
+    font-weight: bolder;
+    column-span: 20px;
+}
+
+.miTr {
+    text-align: center;
+}
+
+.stdScore {
+    color: black;
+    background-color: beige;
+    column-span: 10px;
+    font-style: italic;
+}
