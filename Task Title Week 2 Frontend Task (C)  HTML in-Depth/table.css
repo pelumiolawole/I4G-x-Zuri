@@ -35,4 +35,5 @@ padding: 40px;
     border: 1px;
     padding: 0%;
     border: 0px;
+    text-align:var('.stdScore')
 }
