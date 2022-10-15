@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url("pelumibgimg.jpg");
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+h2{
+  padding-top: 1.5rem;
+}
+
+a{
+  color: #333;
+}
+
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+
+.card{
+  border: 0.40rem solid #f8f9fa;
+  top: 10%;
+}
+
+.form-control{
+  background-color: #1a2c3f;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  background: #008e97;
+  border: 2px solid #173d24;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #3f9197;
+    border-color: #5d9c72;
+  transition: .3s;
+
+}
+
+.whitespace {
+    color: #fff;
+}
+
+#successpage {
+    color: #008e97;
+    text-align:center;
+    width: Xu;
+    height: Yu;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    margin-left: -(X/2)u;
+    margin-top: -(Y/2)u;
+}

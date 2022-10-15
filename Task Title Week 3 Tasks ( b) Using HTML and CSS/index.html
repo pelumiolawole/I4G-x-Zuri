@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col-md-5">
+   <div class="card">
+     <h2 class="card-title text-center">Register</h2>
+
+    <!--First Name-->
+      <div class="card-body py-md-4">
+       <form _lpchecked="1">
+          <div class="form-group">
+             <input type="text" class="form-control" class="name" placeholder="First Name">
+        </div>
+
+    <!--Last Name-->
+        <form _lpchecked="1">
+          <div class="form-group">
+             <input type="text" class="form-control" class="name" placeholder="Last Name">
+        </div>
+
+    <!--Email-->
+        <div class="form-group">
+             <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            
+    <!--Phone No.-->
+        <form _lpchecked="1">
+          <div class="form-group">
+             <input type="text" class="form-control" class="phone" placeholder="Phone Number">
+        </div>
+    
+    <!--DOB-->
+        <form _lpchecked="1">
+          <div class="form-group">
+        <input type="date" class="form-control" class="date" name="begin" placeholder="Enter DOB" value="" min="1997-01-01" max="2030-12-31">
+        </div>
+        
+    <!--Gender-->
+        <form _lpchecked="1">
+          <div class="form-group">
+            <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+            <label for="sex_f" class="register-switch-label">Female</label>
+            <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+            <label for="sex_m" class="register-switch-label">Male</label> 
+        </div>
+
+        <p class="whitespace">.</p>
+
+    <!--Fav Color-->
+        <form _lpchecked="1">
+          <div class="form-group">
+            <label for="colorpicker">Favourite Color:</label>
+            <input type="color" id="colorpicker" value="#008e97">
+        </div>
+        <p class="whitespace">.</p>
+
+   <div class="d-flex flex-row align-items-center justify-content-between">
+      <a href="login.html">Login</a>
+      <button type="button" class="btn btn-primary"><B><a href="Success_Page.html">Create Account</a></B></button>
+          </div>
+       </form>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
